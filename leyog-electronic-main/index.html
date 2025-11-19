@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Leyog Electronic</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Leyog Electronic</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                            <li class="nav-item"><a class="nav-link nav-item-link" href="index.html" data-tr="Anasayfa" data-en="Home" data-ru="Главная" data-zh="首页" data-ar="الصفحة الرئيسية" data-es="Inicio" data-it="Home" data-fr="Accueil">Home</a></li>
+                            <li class="nav-item"><a class="nav-link nav-item-link" href="resume.html" data-tr="Hizmetler" data-en="Services" data-ru="Услуги" data-zh="服务" data-ar="خدمات" data-es="Servicios" data-it="Servizi" data-fr="Services">Resume</a></li>
+                            <li class="nav-item"><a class="nav-link nav-item-link" href="projects.html" data-tr="Projeler" data-en="Projects" data-ru="Проекты" data-zh="项目" data-ar="المشاريع" data-es="Proyectos" data-it="Progetti" data-fr="Projets">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link nav-item-link" href="contact.html" data-tr="İletişim" data-en="Contact" data-ru="Контакты" data-zh="联系" data-ar="اتصال" data-es="Contacto" data-it="Contatto" data-fr="Contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <select id="lang-select" class="form-select form-select-sm ms-3" style="width: auto;">
+                        <option value="tr" selected>Türkçe</option>
+                        <option value="en">English</option>
+                        <option value="ru">Русский</option>
+                        <option value="zh">中文</option>
+                        <option value="ar">العربية</option>
+                        <option value="es">Español</option>
+                        <option value="it">Italiano</option>
+                        <option value="fr">Français</option>
+                    </select>
+                </div>
+            </nav>
+            <header class="py-5">
+                <div class="container px-5 pb-5">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-xxl-5">
+                            <div class="text-center text-xxl-start">
+                                <div id="header-badge" class="badge bg-gradient-primary-to-secondary text-white mb-4"
+                                     data-tr="Ürün araştırması, Donanım ve Yazılım AR-GE Hizmetleri, PCB ve PCBA Üretimi"
+                                     data-en="Product research, Hardware and Software R&D Services, PCB and PCBA Production"
+                                     data-ru="Исследование продукции, Услуги НИОКР, Производство PCB и PCBA"
+                                     data-zh="产品研究、软硬件研发服务、PCB和PCBA制造"
+                                     data-ar="أبحاث المنتجات، خدمات البحث والتطوير، إنتاج الدوائر المطبوعة وPCBA"
+                                     data-es="Investigación de productos, Servicios de I+D de Hardware y Software, Producción de PCB y PCBA"
+                                     data-it="Ricerca prodotti, Servizi R&S Hardware e Software, Produzione PCB e PCBA"
+                                     data-fr="Recherche de produits, Services R&D Matériel et Logiciel, Production PCB et PCBA">
+                                     <div class="text-uppercase">Product research,<br></br> &middot; Hardware and Software R&D Services,<br></br> &middot; PCB and PCBA Production</div>
+                                </div>
+                                <div id="header-subtitle" class="fs-3 fw-light text-muted"
+                                     data-tr="İşletmenizin büyümesine yardımcı olabilirim"
+                                     data-en="I can help your business to grow"
+                                     data-ru="Я могу помочь вашему бизнесу расти"
+                                     data-zh="我能帮助您的企业成长"
+                                     data-ar="يمكنني مساعدة عملك على النمو"
+                                     data-es="Puedo ayudar a crecer a su negocio"
+                                     data-it="Posso aiutare la tua attività a crescere"
+                                     data-fr="Je peux aider votre entreprise à grandir">I can help your business to grow</div>
+                                
+                                <h1 id="header-title" class="display-3 fw-bolder mb-5" 
+                                    data-tr="Çin ve Türkiye Arasındaki Köprü"
+                                    data-en="The Bridge Between China and World"
+                                    data-ru="Мост между Китаем и Россией"
+                                    data-zh="连接中国与世界的桥梁"
+                                    data-ar="الجسر بين الصين وأنت"
+                                    data-es="El puente entre China y tú"
+                                    data-it="Il ponte tra Cina e Italia"
+                                    data-fr="Le pont entre la Chine et la France">
+                                    <span class="text-gradient d-inline">The Bridge Between China and World</span>
+                                </h1>
+                                
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                                    <a id="cta-button-1" class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="resume.html" 
+                                       data-tr="Teklif İste" 
+                                       data-en="Request a Quote"
+                                       data-ru="Запросить Цену"
+                                       data-zh="询价"
+                                       data-ar="طلب عرض سعر"
+                                       data-es="Solicitar Presupuesto"
+                                       data-it="Richiedi un Preventivo"
+                                       data-fr="Demander un Devis">Teklif İste</a>
+                                    <a id="cta-button-2" class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.html"
+                                       data-tr="Projelerimiz" 
+                                       data-en="Our Projects"
+                                       data-ru="Наши Проекты"
+                                       data-zh="我们的项目"
+                                       data-ar="مشاريعنا"
+                                       data-es="Nuestros Proyectos"
+                                       data-it="I Nostri Progetti"
+                                       data-fr="Nos Projets">Projects</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-7">
+                            <div class="d-flex justify-content-center mt-5 mt-xxl-0">
+                                <div class="profile bg-gradient-primary-to-secondary">
+                                    <img class="profile-img" src="assets/profile.png" alt="..." />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="bg-light py-5">
+                <div class="container px-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-xxl-8">
+                            <div class="text-center my-5">
+                                <h2 id="about-title" class="display-5 fw-bolder" 
+                                    data-tr="Hakkımızda" 
+                                    data-en="About Us"
+                                    data-ru="О Нас"
+                                    data-zh="关于我们"
+                                    data-ar="عنا"
+                                    data-es="Sobre Nosotros"
+                                    data-it="Chi Siamo"
+                                    data-fr="À Propos de Nous">
+                                    <span class="text-gradient d-inline">About Me</span>
+                                </h2>
+                                <p id="about-subtitle" class="lead fw-light mb-4"
+                                   data-tr="Leyog, Asya'nın üretim gücünü ve Avrupa'nın dinamik AR-GE ruhunu birleştiriyor." 
+                                   data-en="Leyog combines Asia's manufacturing power with Europe's dynamic R&D spirit."
+                                   data-ru="Leyog сочетает производственную мощь Азии с динамичным духом НИОКР Европы."
+                                   data-zh="利奥格将亚洲的制造能力与欧洲的动态研发精神相结合。"
+                                   data-ar="ليوغ يجمع بين قوة التصنيع الآسيوية وروح البحث والتطوير الأوروبية الديناميكية."
+                                   data-es="Leyog combina el poder de fabricación de Asia con el espíritu dinámico de I+D de Europa."
+                                   data-it="Leyog unisce la potenza manifatturiera asiatica allo spirito dinamico di R&S europeo."
+                                   data-fr="Leyog combine la puissance de fabrication de l'Asie avec l'esprit de R&D dynamique de l'Europe.">My name is Start Bootstrap and I help brands grow.</p>
+                                <p id="about-text" class="text-muted"
+                                   data-tr="Çin ve Türkiye ortaklığıyla kurulan Leyog, TFT dokunmatik PCBA üretimi ve gömülü sistemler için anahtar teslim AR-GE hizmetleri sunmaktadır. Amacımız, en iyi kaliteyi küresel pazara ulaştırmaktır."
+                                   data-en="Founded through a partnership between China and Türkiye, Leyog offers TFT touch PCBA manufacturing and turnkey R&D services for embedded systems. Our goal is to bring the best quality to the global market."
+                                   data-ru="Leyog, основанная в партнерстве между Китаем и Турцией, предлагает производство сенсорных PCBA для TFT и комплексные услуги НИОКР для встраиваемых систем. Наша цель — вывести лучшее качество на мировой рынок."
+                                   data-zh="通过中国和土耳其的合作建立，利奥格提供TFT触摸PCBA制造和嵌入式系统交钥匙研发服务。我们的目标是为全球市场带来最佳质量。"
+                                   data-ar="تأسست ليوغ بشراكة بين الصين وتركيا، وتقدم خدمات تصنيع PCBA التي تعمل باللمس وخدمات البحث والتطوير الشاملة للأنظمة المدمجة. هدفنا هو تقديم أفضل جودة للسوق العالمي."
+                                   data-es="Fundada a través de una asociación entre China y Turquía, Leyog ofrece fabricación de PCBA táctil TFT y servicios de I+D llave en mano para sistemas integrados. Nuestro objetivo es llevar la mejor calidad al mercado global."
+                                   data-it="Fondata tramite una partnership tra Cina e Turchia, Leyog offre produzione di PCBA touch TFT e servizi R&S chiavi in mano per sistemi embedded. Il nostro obiettivo è portare la migliore qualità sul mercato globale."
+                                   data-fr="Fondée grâce à un partenariat entre la Chine et la Turquie, Leyog propose la fabrication de PCBA tactile TFT et des services de R&D clé en main pour les systèmes embarqués. Notre objectif est d'apporter la meilleure qualité au marché mondial.">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dolorum itaque qui unde quisquam consequatur autem. Eveniet quasi nobis aliquid cumque officiis sed rem iure ipsa! Praesentium ratione atque dolorem?</p>
+
+                                <div class="d-flex justify-content-center fs-2 gap-4">
+                                    <a class="text-gradient" href="#!"><i class="bi bi-twitter"></i></a>
+                                    <a class="text-gradient" href="#!"><i class="bi bi-linkedin"></i></a>
+                                    <a class="text-gradient" href="#!"><i class="bi bi-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-white py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0">Copyright &copy; Leyog Electronic 2024</div></div>
+                    <div class="col-auto">
+                        <a class="small" href="#!">Privacy</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="#!">Terms</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+        
+        <script>
+           document.addEventListener('DOMContentLoaded', () => {
+    const langSelect = document.getElementById('lang-select');
+    
+    // Desteklenen tüm dil kodları
+    const supportedLangs = ['tr', 'en', 'ru', 'zh', 'ar', 'es', 'it', 'fr'];
+    
+    // Dil kodları ve Karşılık gelen Ülke Adları (Özel Değişim için)
+    const countryNames = {
+        'tr': 'Türkiye',
+        'en': 'Türkiye',
+        'ru': 'Турция', // Rusça
+        'zh': '土耳其', // Çince
+        'ar': 'تركيا', // Arapça
+        'es': 'Turquía', // İspanyolca
+        'it': 'Turchia', // İtalyanca
+        'fr': 'France' // FRANSA için özel kural
+    };
+
+    // data-tr, data-en, data-ru vb. niteliklere sahip tüm elementleri seçer
+    const translatableElements = document.querySelectorAll(`[data-tr]`);
+
+    // Metinleri güncelleme işlevi
+    const updateText = (lang) => {
+        document.documentElement.lang = lang; 
+        const targetCountryName = countryNames[lang] || 'Türkiye'; // Varsayılan: Türkiye
+
+        // Arapça (ar) için RTL (sağdan sola) yönlendirmeyi ayarlar
+        if (lang === 'ar') {
+            document.body.dir = 'rtl';
+        } else {
+            document.body.dir = 'ltr';
+        }
+
+        translatableElements.forEach(element => {
+            const dataAttribute = `data-${lang}`;
+            let newText = element.getAttribute(dataAttribute);
+
+            if (newText) {
+                // 1. Önce, metindeki TÜRKIYE kelimesini hedef ülkeyle değiştir (Çin-Türkiye Köprüsü)
+                // Dikkat: Bu değişimi sadece 'Çin ve Türkiye Arasındaki Köprü' ifadesi için uygulayacağız
+                if (element.id === 'header-title') {
+                    // Sadece Başlık (header-title) için "Türkiye" kelimesini hedef ülkeyle değiştiriyoruz.
+                    // FR seçildiğinde, data-fr'deki "Türkiye" kelimesi "France" ile değişir.
+                    newText = newText.replace(/Türkiye|Türkey|Turkey/gi, targetCountryName);
+                }
+                
+                // 2. **bold** işaretlerini <strong> HTML etiketiyle değiştirir
+                element.innerHTML = newText.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+            } else {
+                // Metin bulunamazsa varsayılan dil (Türkçe) kullanılır
+                console.warn(`Translation missing for element ID/Class: ${element.id || element.className} in language: ${lang}`);
+                element.innerHTML = element.getAttribute('data-tr') || element.textContent;
+            }
+        });
+
+        // Sayfa yüklendiğinde seçili dilin seçili kalmasını sağlar
+        langSelect.value = lang;
+    };
+
+    // Seçim menüsündeki değişiklikleri dinler
+    langSelect.addEventListener('change', (event) => {
+        const selectedLang = event.target.value;
+        updateText(selectedLang);
+    });
+
+    // Sayfa yüklendiğinde başlangıç dilini ayarlar
+    updateText(langSelect.value); 
+});
+        </script>
+    </body>
+</html>
